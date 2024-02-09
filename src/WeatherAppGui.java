@@ -97,7 +97,6 @@ public class WeatherAppGui extends JFrame {
                         break;
                 }
 
-
                 double temperature = (double) weatherData.get("temperature");
                 temperatureText.setText(temperature + " C");
 
@@ -112,7 +111,6 @@ public class WeatherAppGui extends JFrame {
         });
         add(searchButton);
     }
-
 
     private ImageIcon loadImage(String resourcePath){
         try{

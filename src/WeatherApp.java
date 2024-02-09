@@ -136,7 +136,6 @@ public class WeatherApp {
         return formattedDateTime;
     }
 
-
     private static String convertWeatherCode(long weathercode){
         String weatherCondition = "";
         if(weathercode == 0L){
